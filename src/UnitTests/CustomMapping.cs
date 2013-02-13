@@ -1095,6 +1095,10 @@ namespace AutoMapper.UnitTests
             {
                 public int Value { get; set; }
 
+                public Dest()
+                {
+                }
+
                 public Dest(int value)
                 {
                     Value = value;
